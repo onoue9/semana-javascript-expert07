@@ -66,3 +66,23 @@ Desafio plus: implementar testes unitários e alcançar 100% de coverage (avanç
   
 ### Créditos ao Layout
 - Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
+
+### Errata
+
+Aula 3
+
+Em 18:12 teve um erro de edição que acabou perdendo o código do index.css para o desenho da junta das mãos. Aqui está ele:
+
+no arquivo em class03/pages/titles/lib/index.css adicione no fim do arquivo:
+
+#hands {
+    /* faz com que elementos possam ser clicaveis */
+    pointer-events: none;
+
+    /* faz ficar em cima dos elementos */
+    position: fixed;
+
+    /* fica à frente dos elementos */
+    z-index: 2;
+}
+
